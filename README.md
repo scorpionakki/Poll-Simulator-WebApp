@@ -41,6 +41,6 @@ A React Web-App that simulates election for SBG(Student Body Governance) at the 
 ![image](https://user-images.githubusercontent.com/25850434/129948958-b0dace8f-3000-400a-8280-d70bb0967280.png)
 
 ### Election Results
-* This page will let you know who has more set of votes.
+* This page will let you know results.
 ![image](https://user-images.githubusercontent.com/25850434/129949071-6fd27e3f-743e-44f7-80da-27c55bb9ee85.png)
 
