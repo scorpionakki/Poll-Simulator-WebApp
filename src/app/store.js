@@ -1,8 +1,17 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { combineReducers, configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import CandidateReducer from './reducer/CandidateReducer';
+import CastVoteReducer from './reducer/CastVoteReducer';
+
+const customizedMiddleware = getDefaultMiddleware({
+  serializableCheck: false
+})
+
+const rootReducer = combineReducers({
+  candidate: CandidateReducer,
+  castVote: CastVoteReducer,
+})
 
 export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+  reducer: rootReducer,
+  middleware: customizedMiddleware,
 });

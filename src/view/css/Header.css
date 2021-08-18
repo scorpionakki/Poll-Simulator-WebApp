@@ -1,0 +1,151 @@
+.headerScreenContainer{
+    width: 100%;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+}
+
+.textLink{
+    color: #808080;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.headerScreenTitle{
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+.textLinkActive{
+    color: white;
+}
+
+.textLink:hover{
+    color: #999999;
+}
+
+.headerPollSimulator{
+    display: flex;
+    width: 50%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #222222;
+    border-right: 1px solid #222222;
+    /* border-bottom: #222222; */
+    /* background-color: #222222; */
+    box-shadow: #222222 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.headerSub{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #222222;
+    box-shadow: #222222 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    /* background-color: #222222; */
+}
+.candidateInputContainer{
+    display: flex;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: larger;
+    align-items: center;
+    height: 600px;
+    color: white;
+    width: 70%;
+    margin-left: 300px;
+    margin-top: 130px;
+    box-shadow: rgba(195, 195, 195, 0.4) -5px 5px, rgba(195, 195, 195, 0.3) -10px 10px, rgba(195, 195, 195, 0.2) -15px 15px, rgba(195, 195, 195, 0.1) -20px 20px, rgba(195, 195, 195, 0.05) -25px 25px;
+    /* box-shadow: rgba(195, 195, 195, 0.35) 0px 5px 15px; */
+}
+
+.inputLabelContainer{
+    background-color: #222222;
+    height: 40px;
+    margin-left: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+.inputBoxContainer{
+    height: 60px;
+    width: 530px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type=text]{
+    height: 55px;
+    width: 300px;
+    background: transparent;
+    color: white;
+    font-size: large;
+}
+
+.submitBtn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    background-color: #222222;
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-size: larger;
+    box-shadow: rgba(195, 195, 195, 0.50) 0px 3px 6px, rgba(195, 195, 195, 0.50) 0px 3px 6px;;
+}
+
+h1{
+    color:#ebecf0;
+}
+
+p{
+    color: white;
+}
+
+.resultNameContainer{
+    width: 80%;
+    height: 30px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.voteNamesContainer{
+    border: 1px solid #222222;
+    width: 30%;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
